@@ -80,7 +80,7 @@ if len(raws_to_delete) == 0:
 else:
 	print('Files to remove: {:4d}'.format(len(raws_to_delete)))
 	for file in raws_to_delete:
-		print(color_string('\t{}.{}'.format(file, raw_ext)))
+		print(color_string('\t{}.{}'.format(file, raw_ext), COLOR_RED))
 
 cont = None
 while not force and not cont in ['', 'y', 'n']:
