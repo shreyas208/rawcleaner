@@ -1,3 +1,3 @@
 # rawcleaner
 
-A utility to remove the RAW photo files in a directory that do not have a corresponding JPEG file. This is useful when shooting to RAW+JPEG and then previewing and deleting unwanted JPEG files.
+A utility to remove RAW photo files that do not have corresponding JPEG files in a directory. This is useful when shooting to RAW+JPEG and then deleting unwanted JPEG files.
