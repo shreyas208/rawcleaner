@@ -59,7 +59,6 @@ force = flag_args['-f']
 filelist = []
 for (dp, dn, fn) in walk(dir_path):
 	filelist.extend(fn)
-	break
 
 jpgs = set()
 raws = set()
